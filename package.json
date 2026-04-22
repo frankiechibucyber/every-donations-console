@@ -1,0 +1,38 @@
+{
+	"name": "donation-processor",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Internal tool for manually processing donations at every.org",
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "eslint",
+		"typecheck": "tsc --noEmit",
+		"test": "vitest run",
+		"test:watch": "vitest",
+		"format": "prettier --write ."
+	},
+	"engines": {
+		"node": ">=22.0.0"
+	},
+	"packageManager": "yarn@1.22.22",
+	"dependencies": {
+		"next": "16.2.4",
+		"react": "19.2.4",
+		"react-dom": "19.2.4",
+		"zod": "^4.3.6"
+	},
+	"devDependencies": {
+		"@tailwindcss/postcss": "^4",
+		"@types/node": "^22",
+		"@types/react": "^19",
+		"@types/react-dom": "^19",
+		"eslint": "^9",
+		"eslint-config-next": "16.2.4",
+		"prettier": "^3.3.3",
+		"tailwindcss": "^4",
+		"typescript": "^5",
+		"vitest": "^4"
+	}
+}
